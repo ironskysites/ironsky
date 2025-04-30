@@ -33,7 +33,7 @@ const planes = [
     {name: "Leopard 2K", image: "images/testImages/germ/leo2k.png", country: "Германия"},
     {name: "Leopard PSO", image: "images/testImages/germ/leoPSO.png", country: "Германия"},
     {name: "Leopard PL", image: "images/testImages/germ/leoPL.png", country: "Германия"},
-    {name: "TAM", image: "images/testImages/germ/TAM.png", country: "Германия"},
+    {name: "TAM", image: "images/testImages/germ/tam.png", country: "Германия"},
     {name: "T-72M1", image: "images/testImages/germ/t72m1.png", country: "Германия"},
     {name: "TAM 2C", image: "images/testImages/germ/tam2c.png", country: "Германия"},
 
