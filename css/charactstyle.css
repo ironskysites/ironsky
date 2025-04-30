@@ -1,0 +1,150 @@
+h2 {
+    padding: 8vh 0 4vh;
+    font-size: calc(15px + 10 * (100vw / 1280));
+}
+
+.content {
+    display: flex;
+    margin: 10vh 0;
+    justify-content: center;
+}
+
+.float {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-top-right-radius: 2%;
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    border-top-left-radius: 2%;
+}
+
+.left-float {
+    width: 30vw;
+}
+
+.left-float img {
+    border-top-left-radius: 2%;
+    height: 100%;
+}
+
+.right-float {
+    width: 60vw;
+    padding: 1.4%;
+    font-size: calc(10px + 10 * (100vw / 1280));
+}
+
+.right-content {
+    padding: 5vh 2vw;
+    text-align: center;
+}
+
+
+.right-float p {
+    font-size: max(10px, calc(8px + 10 * (100vw / 1280)));
+}
+
+.charact {
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2vh 2vw;
+    margin: 3vh 4vw;
+    width: 92vw;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    font-size: calc(9px + 10 * (100vw / 1280));
+    text-align: left;
+    padding-bottom: 10vh;
+}
+
+.charact p, ol {
+    padding: 2% 2vw 0;
+}
+
+.charact h2 {
+    padding: 10vh 2vw 0;
+}
+
+.charact-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgba(73, 73, 73, 0.63);
+    font-size: calc(8px + 10 * (100vw / 1280));
+    letter-spacing: 4px;
+    width: 80vw;
+}
+
+@media (max-width: 768px) {
+    table { 
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .float {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-float {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-float img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .right-float {
+        width: 90%;
+        text-align: center; 
+        padding: 5%;
+    }
+
+    .right-content {
+        text-align: center;
+    }
+}
+
+
+caption {
+    padding: 8vh 0 2vh;
+}
+
+th,
+td {
+    border: 1px solid rgb(168, 168, 168);
+    padding: 1.5vh 1vw;
+    font-size: calc(7px + 10 * (100vw / 1280));
+}
+
+ol {
+    padding-left: 3vw;
+}
+
+/* .photo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    margin-top: 14vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.2%;
+    width: 80vw;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+} */

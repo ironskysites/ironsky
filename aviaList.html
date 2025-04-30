@@ -3,11 +3,11 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aviastyle.css">
-    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/images/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IronSky - Aviation List</title>
@@ -18,42 +18,664 @@
             <a href="index.html">IronSky</a>
             <hr />
             <span 
-                style="color: rgb(255, 255, 255); font-size: calc(8px + 10 * (100vw / 1280)); background: linear-gradient(rgba(255, 255, 255, 0) 85%, rgb(255, 0, 0)); border-radius: 4px;">
+                style="color: rgb(255, 255, 255); font-size: max(16px, calc(8px + 10 * (100vw / 1280)));; background: linear-gradient(rgba(255, 255, 255, 0) 85%, rgba(255, 0, 0, 0.705));
+                    background-color: rgba(0, 0, 0, 0); padding: 0.4vh 0.4vw;">
                 Авиация
             </span>
             <hr />
+            <a href="mainTest.html">Тесты</a>
+            <hr />
             <a href="rules.html">Правила чата</a>
         </header>
-        <div class="blur-overlay">Coming Soon</div>
         <div class="content">
+            <div class="chapter">
+                <a href="https://youtu.be/9lPA7vdyIM8?si=1b637v3elRl6BDcq" target="_blank">
+                    <img src="images/usa-flag.png" alt="">
+                </a>
+                <p>США</p>
+            </div>
             <div class="cards-container">
                 <div class="card">
-                    <img src="images/f4.jpg" alt="Самолет 1">
-                    <h3>F-4 Phantom II</h3>
-                    <p>Истребитель</p>
+                    <a href="f22.html">
+                        <img src="images/f22.jpg" alt="Самолет 1">
+                        <h3>F-22</h3>
+                        <p>Истребитель</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/b29.jpg" alt="Самолет 2">
-                    <h3>Boeing B-29 Superfortress</h3>
-                    <p>Бомбардировщик</p>
+                    <a href="f18.html">
+                        <img src="images/f-18.webp" alt="Самолет 1">
+                        <h3>F/A-18</h3>
+                        <p>Истребитель-бомбардировщик</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/a50.jpg" alt="Самолет 3">
-                    <h3>A-50</h3>
-                    <p>Разведчик</p>
+                    <a href="f16.html">
+                        <img src="images/f16.jpg" alt="Самолет 1">
+                        <h3>F-16</h3>
+                        <p>Лёгкий истребитель</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/plane4.jpg" alt="Самолет 4">
-                    <h3>----</h3>
+                    <a href="f4.html">
+                        <img src="images/f4.jpg" alt="Самолет 1">
+                        <h3>F-4 II</h3>
+                        <p>Истребитель</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/plane5.jpg" alt="Самолет 5">
-                    <h3>----</h3>
-                    
+                    <a href="b36.html">
+                        <img src="images/b36.jpg" alt="Самолет 1">
+                        <h3>B-36</h3>
+                        <p>Стратегический бомбардировщик</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/plane4.jpg" alt="Самолет 4">
-                    <h3>----</h3>
+                    <a href="b29.html">
+                        <img src="images/b29.jpg" alt="Самолет 1">
+                        <h3>B-29</h3>
+                        <p>Тяжелый бомбардировщик</p>
+                    </a>
+                </div>
+                <div class="chapter"></div>
+                <div class="card">
+                    <a href="mh6.html">
+                        <img src="images/mh6.jpg" alt="Самолет 1">
+                        <h3>MH-6</h3>
+                        <p>Лёгкий многоцелевой вертолет</p>
+                    </a>
+                </div>
+                <div class="chapter">
+                    <a href="https://youtu.be/NeBnKc33K9Y?si=NN0kGCHuxFdc7_dT" target="_blank">
+                        <img src="images/germany-flag.png" alt="">
+                    </a>
+                    <p>Германия</p>
+                </div>
+                <div class="card">
+                    <a href="tornado.html">
+                        <img src="images/tornado.webp" alt="Самолет 1">
+                        <h3>Tornado</h3>
+                        <p>Истребитель-бомбардировщик</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="alpha-jet.html">
+                        <img src="images/alpha-jet.jpg" alt="Самолет 1">
+                        <h3>Alpha Jet A</h3>
+                        <p>Легкий штурмовик</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="me262.html">
+                        <img src="images/me262.jpg" alt="Самолет 1">
+                        <h3>Me.262</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="chapter">
+                    <a href="https://youtu.be/UKrA8hv8dvE?si=SEE0_VAdsvI1l0V8" target="_blank">
+                        <img src="images/ussr-flag.png" alt="">
+                    </a>
+                    <a href="https://youtu.be/4A02KJml-AM?si=v8x_OrVsiSdryIE4" target="_blank"><p class="soviet">СССР</p></a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="i16.html">
+                        <img src="images/i16.jpg" alt="Самолет 2">
+                        <h3>И-16</h3>
+                        <p>Истребитель</p>
+                    </a>
+                </div>
+                <div class="chapter">
+                    <a href="https://youtu.be/yKC3ljslrHs?si=U2T61u-dnkF21XXt" target="_blank">
+                        <img src="images/israel-flag.png" alt="">
+                    </a>
+                    <p>Израиль</p>
+                </div>
+                <div class="card">
+                    <a href="lavi.html">
+                        <img src="images/lavi1.jpg" alt="Самолет 1">
+                        <h3>Lavi</h3>
+                        <p>Истребитель</p>
+                    </a>
                 </div>
             </div>
         </div>
