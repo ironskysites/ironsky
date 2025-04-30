@@ -254,16 +254,6 @@ function updateFlagVisuals() {
     });
 }
 
-document.querySelectorAll('.flag-option input[type=checkbox]').forEach(checkbox => {
-    checkbox.addEventListener('change', () => {
-        updateFlagVisuals();
-        saveSelectedCountries();
-    });
-});
-
-loadSelectedCountries();
-updateFlagVisuals();
-
 function startQuiz() {
     const selectedCountries = Array.from(document.querySelectorAll('#start-screen input[type=checkbox]:checked')).map(input => input.value);
     if (selectedCountries.length < 2) {
@@ -296,3 +286,16 @@ function startQuiz() {
 function restartQuiz() {
     document.location.reload();
 }
+
+// Ждём загрузки DOM перед инициализацией чекбоксов
+window.addEventListener('DOMContentLoaded', () => {
+    loadSelectedCountries();
+    updateFlagVisuals();
+
+    document.querySelectorAll('.flag-option input[type=checkbox]').forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+            updateFlagVisuals();
+            saveSelectedCountries();
+        });
+    });
+});
