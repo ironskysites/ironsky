@@ -33,7 +33,7 @@ const planes = [
     {name: "Leopard 2K", image: "images/testImages/germ/leo2k.png", country: "Германия"},
     {name: "Leopard PSO", image: "images/testImages/germ/leoPSO.png", country: "Германия"},
     {name: "Leopard PL", image: "images/testImages/germ/leoPL.png", country: "Германия"},
-    {name: "TAM", image: "images/testImages/germ/TAM.png", country: "Германия"},
+    {name: "TAM", image: "images/testImages/germ/tam.png", country: "Германия"},
     {name: "T-72M1", image: "images/testImages/germ/t72m1.png", country: "Германия"},
     {name: "TAM 2C", image: "images/testImages/germ/tam2c.png", country: "Германия"},
 
@@ -46,7 +46,7 @@ const planes = [
     {name: "T-72B3", image: "images/testImages/sssr/t72b3.png", country: "СССР"},
     {name: "T-72B", image: "images/testImages/sssr/t72b.png", country: "СССР"},
     {name: "T-72A", image: "images/testImages/sssr/t72a.png", country: "СССР"},
-    {name: "T-64B", image: "images/testImages/sssr/t64B.png", country: "СССР"},
+    {name: "T-64B", image: "images/testImages/sssr/t64b.png", country: "СССР"},
     {name: "T-64A", image: "images/testImages/sssr/t64a.png", country: "СССР"},
     {name: "T-62M1", image: "images/testImages/sssr/t62m1.png", country: "СССР"},
     {name: "T-62", image: "images/testImages/sssr/t62.png", country: "СССР"},
