@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Танки</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+    <script src="js/scriptTanks.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">IronSky</a>
+        <hr />
+        <a href="aviaList.html">Авиация</a>
+        <hr />
+        <span 
+            style="color: rgb(255, 255, 255); font-size: max(16px, calc(8px + 10 * (100vw / 1280)));; background: linear-gradient(rgba(255, 255, 255, 0) 85%, rgba(255, 0, 0, 0.705));
+            background-color: rgba(0, 0, 0, 0); padding: 0.4vh 0.4vw;">
+            Тесты
+        </span>
+        <hr />
+        <a href="rules.html">Правила чата</a>
+    </header>
+
+    <div id="info-panel"></div>
+
+    <div id="start-screen" style="padding-top: 10vh;">
+        <h2>Выберите страны:</h2>
+        <div class="flags">
+            <label class="flag-option">
+                <input type="checkbox" value="США" checked>
+                <img src="images/usa.png" alt="США">
+                <p>США</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Германия" checked>
+                <img src="images/testImages/ger.png" alt="СССР">
+                <p>Германия</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="СССР" checked>
+                <img src="images/sssr.png" alt="СССР">
+                <p>СССР</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Великобритания" checked>
+                <img src="images/testImages/eng.png" alt="СССР">
+                <p>Великобритания</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Япония" checked>
+                <img src="images/testImages/jp.png" alt="СССР">
+                <p>Япония</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Китай" checked>
+                <img src="images/testImages/chi.png" alt="СССР">
+                <p>Китай</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Италия" checked>
+                <img src="images/testImages/it.png" alt="СССР">
+                <p>Италия</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Франция" checked>
+                <img src="images/testImages/fr.png" alt="СССР">
+                <p>Франция</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Швеция" checked>
+                <img src="images/testImages/sweden.png" alt="СССР">
+                <p>Швеция</p>
+            </label>
+            <label class="flag-option">
+                <input type="checkbox" value="Израиль" checked>
+                <img src="images/testImages/isr.png" alt="СССР">
+                <p>Израиль</p>
+            </label>
+            
+            
+            
+        </div>
+
+        <h2>Режимы</h2>
+        <div class="mode-selectors">
+            <select id="difficulty">
+                <option value="easy">Угадать по вариантам</option>
+                <option value="hard">Написать название</option>
+            </select>
+        </div>
+
+        <h2>Количество вопросов</h2>
+        <div class="question-selectors">
+            <select id="question-count">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="hardcore">Хардкор</option>
+            </select>
+        </div>
+
+        <button onclick="startQuiz()" class="start-btn">Начать тест</button>
+    </div>
+
+    <div class="quiz-container" id="quiz-container" style="display:none;">
+        <img src="" alt="Фото танка" id="plane-image">
+        <div class="options" id="options"></div>
+    </div>
+</body>
+</html>
