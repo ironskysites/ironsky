@@ -46,7 +46,7 @@ const planes = [
     {name: "T-72B3", image: "images/testImages/sssr/t72b3.png", country: "СССР"},
     {name: "T-72B", image: "images/testImages/sssr/t72b.png", country: "СССР"},
     {name: "T-72A", image: "images/testImages/sssr/t72a.png", country: "СССР"},
-    {name: "T-64B", image: "images/testImages/sssr/t64B.png", country: "СССР"},
+    {name: "T-64B", image: "images/testImages/sssr/t64b.png", country: "СССР"},
     {name: "T-64A", image: "images/testImages/sssr/t64a.png", country: "СССР"},
     {name: "T-62M1", image: "images/testImages/sssr/t62m1.png", country: "СССР"},
     {name: "T-62", image: "images/testImages/sssr/t62.png", country: "СССР"},
