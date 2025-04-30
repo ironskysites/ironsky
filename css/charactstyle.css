@@ -35,9 +35,13 @@ h2 {
 }
 
 .right-content {
-    padding: 2vh 2vw;
-    text-align: left;
-    font-size: calc(8px + 10 * (100vw / 1280));
+    padding: 5vh 2vw;
+    text-align: center;
+}
+
+
+.right-float p {
+    font-size: max(10px, calc(8px + 10 * (100vw / 1280)));
 }
 
 .charact {
@@ -74,6 +78,43 @@ table {
     width: 80vw;
 }
 
+@media (max-width: 768px) {
+    table { 
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .float {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-float {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-float img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .right-float {
+        width: 90%;
+        text-align: center; 
+        padding: 5%;
+    }
+
+    .right-content {
+        text-align: center;
+    }
+}
+
+
 caption {
     padding: 8vh 0 2vh;
 }
@@ -82,8 +123,11 @@ th,
 td {
     border: 1px solid rgb(168, 168, 168);
     padding: 1.5vh 1vw;
-    width: 7vw;
     font-size: calc(7px + 10 * (100vw / 1280));
+}
+
+ol {
+    padding-left: 3vw;
 }
 
 /* .photo-grid {

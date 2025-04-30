@@ -57,11 +57,45 @@ header a {
     color: white;
     text-decoration: none;
     transition: all 0.2s;
+    font-size: max(16px, calc(10px + 10 * (100vw / 1280)));
 }
 
 header a:hover {
     color: rgb(115, 195, 226);
     font-size: calc(10px + 10 * (100vw / 1280));
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 9vw;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: calc(6px + 10 * (100vw / 1280));
+}
+
+.dropdown a:hover {
+    background-color: #ffffff23;
+}
+
+.menu-container:hover .dropdown {
+    display: block;
 }
 
 .content {
@@ -74,21 +108,28 @@ header a:hover {
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    margin: 13vh 0;
 }
 
 .content span {
-    color: rgb(172, 172, 172);
-    width: 60%;
-    font-size: calc(8px + 10 * (100vw / 1280));
+    color: rgb(229, 229, 229);
+    width: 70%;
+    font-size: max(4px, calc(10px + 10 * (100vw / 1280)));
+}
+
+@media (max-width: 400px) {
+    .content span {
+        width: 80vw;
+    }
 }
 
 .content a {
     text-decoration: none;
-    color: rgb(199, 199, 199);
+    color: rgb(229, 229, 229);
 }
 
 .content .rules {
-    color: rgb(218, 33, 33);
+    color: rgb(221, 221, 221);
     margin: 80px 0;
     padding: 5vh 4vw;
     font-size: calc(12px + 10 * (100vw / 1280));
@@ -110,7 +151,8 @@ header a:hover {
 }
 
 .ukraine span {
-    color: rgb(218, 33, 33);
+    color: rgb(221, 221, 221);
+    font-size: calc(12px + 10 * (100vw / 1280));
 }
 
 .footer {
