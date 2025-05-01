@@ -41,7 +41,6 @@ header {
     color: rgb(185, 185, 185);
     text-align: center;
     padding: 13px 0;
-    font-size: calc(8px + 10 * (100vw / 1280));
     border-bottom: 0.2vh solid;
     border-image: linear-gradient(to right, transparent, rgb(189, 189, 189), transparent) 1;
     display: flex;
@@ -57,12 +56,12 @@ header a {
     color: white;
     text-decoration: none;
     transition: all 0.2s;
-    font-size: max(16px, calc(10px + 10 * (100vw / 1280)));
+    font-size: max(10px, calc(10px + 10 * (100vw / 1280)));
 }
 
 header a:hover {
     color: rgb(115, 195, 226);
-    font-size: calc(10px + 10 * (100vw / 1280));
+    font-size: calc(8px + 10 * (100vw / 1280));
 }
 
 .menu-container {
@@ -130,7 +129,6 @@ header a:hover {
 
 .content .rules {
     color: rgb(221, 221, 221);
-    margin: 80px 0;
     padding: 5vh 4vw;
     font-size: calc(12px + 10 * (100vw / 1280));
     background-color: rgba(0, 0, 0, 0.068);

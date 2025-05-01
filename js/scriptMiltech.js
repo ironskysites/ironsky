@@ -1,4 +1,56 @@
 const planes = [
+    {name: "A-10A", image: "images/testImages/usa/avia/a_10a.png", country: "США"},
+    {name: "A-10C", image: "images/testImages/usa/avia/a_10c.png", country: "США"},
+    {name: "AV-8B Plus", image: "images/testImages/usa/avia/av_8b_plus.png", country: "США"},
+    {name: "F-14B", image: "images/testImages/usa/avia/f_14b.png", country: "США"},
+    {name: "F-15A", image: "images/testImages/usa/avia/f_15a.png", country: "США"},
+    {name: "F-15C", image: "images/testImages/usa/avia/f_15c_msip2.png", country: "США"},
+    {name: "F-15E", image: "images/testImages/usa/avia/f_15e.png", country: "США"},
+    {name: "F-16A", image: "images/testImages/usa/avia/f_16a.png", country: "США"},
+    {name: "F-16C", image: "images/testImages/usa/avia/f_16c.png", country: "США"},
+    {name: "F-111A", image: "images/testImages/usa/avia/f_111a.png", country: "США"},
+    {name: "F-111F", image: "images/testImages/usa/avia/f_111f.png", country: "США"},
+    {name: "F-4C", image: "images/testImages/usa/avia/f-4c.png", country: "США"},
+    {name: "F-4E", image: "images/testImages/usa/avia/f-4e.png", country: "США"},
+    {name: "F-4J", image: "images/testImages/usa/avia/f-4j.png", country: "США"},
+    {name: "F/A-18A", image: "images/testImages/usa/avia/fa_18a.png", country: "США"},
+    {name: "F/A-18C", image: "images/testImages/usa/avia/fa_18c.png", country: "США"},
+
+    {name: "Alpha Jet A", image: "images/testImages/germ/avia/alpha_jet_a.png", country: "Германия"},
+    {name: "EF-2000", image: "images/testImages/germ/avia/ef_2000.png", country: "Германия"},
+    {name: "F-4F KWS LV", image: "images/testImages/germ/avia/f-4f_kws_lv.png", country: "Германия"},
+    {name: "F-104G", image: "images/testImages/germ/avia/f-104g.png", country: "Германия"},
+    {name: "Hunter F.58", image: "images/testImages/germ/avia/hunter_f58.png", country: "Германия"},
+    {name: "MiG-23MLA", image: "images/testImages/germ/avia/mig_23mla.png", country: "Германия"},
+    {name: "MiG-29G", image: "images/testImages/germ/avia/mig_29g.png", country: "Германия"},
+    {name: "MiG-29 (Germany)", image: "images/testImages/germ/avia/mig_29germ.png", country: "Германия"},
+    {name: "Su-22M4 (Germany)", image: "images/testImages/germ/avia/su_22m4.png", country: "Германия"},
+    {name: "Su-22UM3K", image: "images/testImages/germ/avia/su_22um3k.png", country: "Германия"},
+    {name: "Tornado IDS ASSTA1", image: "images/testImages/germ/avia/tornado_ids.png", country: "Германия"},
+
+    {name: "MiG-23M", image: "images/testImages/sssr/avia/mig_23m.png", country: "СССР"},
+    {name: "MiG-23MLD", image: "images/testImages/sssr/avia/mig_23mld.png", country: "СССР"},
+    {name: "MiG-27K", image: "images/testImages/sssr/avia/mig_27k.png", country: "СССР"},
+    {name: "MiG-27M", image: "images/testImages/sssr/avia/mig_27m.png", country: "СССР"},
+    {name: "MiG-29", image: "images/testImages/sssr/avia/mig_29.png", country: "СССР"},
+    {name: "MiG-29SMT", image: "images/testImages/sssr/avia/mig_29smt.png", country: "СССР"},
+    {name: "MiG-21SMT", image: "images/testImages/sssr/avia/mig-21_smt.png", country: "СССР"},
+    {name: "Su-17M2", image: "images/testImages/sssr/avia/su_17m2.png", country: "СССР"},
+    {name: "Su-17M4", image: "images/testImages/sssr/avia/su_17m4.png", country: "СССР"},
+    {name: "Su-24M", image: "images/testImages/sssr/avia/su_24m.png", country: "СССР"},
+    {name: "Su-25", image: "images/testImages/sssr/avia/su_25.png", country: "СССР"},
+    {name: "Su-25T", image: "images/testImages/sssr/avia/su_25t.png", country: "СССР"},
+    {name: "Su-25SM3", image: "images/testImages/sssr/avia/su_25sm3.png", country: "СССР"},
+    {name: "Su-27", image: "images/testImages/sssr/avia/su_27.png", country: "СССР"},
+    {name: "Su-27SM", image: "images/testImages/sssr/avia/su_27sm.png", country: "СССР"},
+    {name: "Su-30SM", image: "images/testImages/sssr/avia/su_30sm.png", country: "СССР"},
+    {name: "Su-34", image: "images/testImages/sssr/avia/su_34.png", country: "СССР"},
+    {name: "Su-7B", image: "images/testImages/sssr/avia/su-7b.png", country: "СССР"},
+    {name: "Su-7BKL", image: "images/testImages/sssr/avia/su-7bkl.png", country: "СССР"},
+    {name: "Yak-141", image: "images/testImages/sssr/avia/yak-141.png", country: "СССР"},
+    {name: "Yak-28B", image: "images/testImages/sssr/avia/yak-28b.png", country: "СССР"},
+    {name: "Yak-38M", image: "images/testImages/sssr/avia/yak-38m.png", country: "СССР"},
+
     {name: "XM800T", image: "images/testImages/usa/xm800t.png", country: "США"},
     {name: "120S", image: "images/testImages/usa/120s.png", country: "США"},
     {name: "ADATS", image: "images/testImages/usa/adats.png", country: "США"},
@@ -197,7 +249,7 @@ function loadQuestion() {
     } else {
         const input = document.createElement('input');
         input.type = 'text';
-        input.placeholder = 'Введите название танка';
+        input.placeholder = 'Введите название техники';
         input.onkeydown = (e) => {
             if (e.key === 'Enter') checkInputAnswer(input);
         };
