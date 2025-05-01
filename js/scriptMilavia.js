@@ -47,7 +47,7 @@ const planes = [
     {name: "Su-34", image: "images/testImages/sssr/avia/su_34.png", country: "СССР"},
     {name: "Su-7B", image: "images/testImages/sssr/avia/su-7b.png", country: "СССР"},
     {name: "Su-7BKL", image: "images/testImages/sssr/avia/su-7bkl.png", country: "СССР"},
-    {name: "Yak-141", image: "images/testImages/sssr/avia/yak-141.png", country: "СССР"},
+    {name: "Yak-141", image: "images/testImages/sssr/avia/yak_141.png", country: "СССР"},
     {name: "Yak-28B", image: "images/testImages/sssr/avia/yak-28b.png", country: "СССР"},
     {name: "Yak-38M", image: "images/testImages/sssr/avia/yak-38m.png", country: "СССР"},
 
