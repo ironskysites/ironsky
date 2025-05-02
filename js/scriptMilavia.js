@@ -51,6 +51,36 @@ const planes = [
     {name: "Yak-28B", image: "images/testImages/sssr/avia/yak-28b.png", country: "СССР"},
     {name: "Yak-38M", image: "images/testImages/sssr/avia/yak-38m.png", country: "СССР"},
 
+    {name: "Typhoon FGR.4", image: "images/testImages/eng/avia/typhoon_fgr4.png", country: "Великобритания"},
+    {name: "JAS39C (UK)", image: "images/testImages/eng/avia/.png", country: "Великобритания"},
+    {name: "Sea Harrier FRS.1 (e)", image: "images/testImages/eng/avia/harrier_frs1.png", country: "Великобритания"},
+    {name: "Sea Harrier FA 2", image: "images/testImages/eng/avia/sea_harrier_fa2.png", country: "Великобритания"},
+    {name: "Tornado F.3 Late", image: "images/testImages/eng/avia/tornado_f3_late.png", country: "Великобритания"},
+    {name: "Tornado F.3", image: "images/testImages/eng/avia/tornado_f3.png", country: "Великобритания"},
+    {name: "Tornado GR.4", image: "images/testImages/eng/avia/tornado_gr4.png", country: "Великобритания"},
+
+    {name: "F-15J(M)", image: "images/testImages/jp/avia/f_15j_m.png", country: "Япония"},
+    {name: "F-15J", image: "images/testImages/jp/avia/f_15j.png", country: "Япония"},
+    {name: "F-16A OCU", image: "images/testImages/jp/avia/f_16a_ocu.png", country: "Япония"},
+    {name: "F-16AJ", image: "images/testImages/jp/avia/f_16aj.png", country: "Япония"},
+    {name: "F-4EJ ADTW", image: "images/testImages/jp/avia/f-4ej_adtw.png", country: "Япония"},
+    {name: "F-4EJ", image: "images/testImages/jp/avia/f-4ej.png", country: "Япония"},
+    {name: "F-5E FCU", image: "images/testImages/jp/avia/f-5e_fcu_jp.png", country: "Япония"},
+    {name: "JAS39C (Japan)", image: "images/testImages/jp/avia/jas39c_jp.png", country: "Япония"},
+    {name: "Ki-200", image: "images/testImages/jp/avia/ki-200.png", country: "Япония"},
+    {name: "Kikka", image: "images/testImages/jp/avia/kikka.png", country: "Япония"},
+
+    {name: "F-15A Baz", image: "images/testImages/isr/avia/f_15a_baz.png", country: "Израиль"},
+    {name: "F-15C Baz Meshupar", image: "images/testImages/isr/avia/f_15c_baz.png", country: "Израиль"},
+    {name: "F-16C Barak II", image: "images/testImages/isr/avia/f_16c_barak.png", country: "Израиль"},
+    {name: "F-16D Barak II", image: "images/testImages/isr/avia/f_16d_barak.png", country: "Израиль"},
+    {name: "Kfir C.7", image: "images/testImages/isr/avia/kfir_c7.png", country: "Израиль"},
+    {name: "F-4E Kurnass 2000", image: "images/testImages/isr/avia/kurnass_2000.png", country: "Израиль"},
+    {name: "Nesher", image: "images/testImages/isr/avia/nesher.png", country: "Израиль"},
+    {name: "F-16A Netz", image: "images/testImages/isr/avia/netz.png", country: "Израиль"},
+    {name: "Shahak", image: "images/testImages/isr/avia/shahak.png", country: "Израиль"},
+
+
 ];
 
 let selectedPlanes = [];

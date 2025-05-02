@@ -52,6 +52,12 @@ header hr {
     height: 2vh;
 }
 
+@media (max-width: 400px) {
+    header {
+        gap: 3vw;
+    }
+}
+
 header a {
     color: white;
     text-decoration: none;
